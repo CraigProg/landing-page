@@ -7,12 +7,12 @@ body{
     flex-direction: row;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 0px 75px 50px 75px;
+    padding: 0px 175px 50px 175px;
 }
 .topmenu {
     background-color: #1F2937;
     display: flex;
-    padding:0 100px;
+    padding:0 200px 100px 200px;
     justify-content: space-between;
 }
 
@@ -21,7 +21,7 @@ body{
     display: flex;
     flex-direction: row;
     margin-right: 24px;
-
+    gap: 10px;
 }
 
 .links {
@@ -31,7 +31,7 @@ body{
 
 .secondary {
     color: #E5E7eb;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .headerimg {
@@ -41,10 +41,10 @@ body{
 }
 
 .toppic {
-    min-width: 100px;
-    width: 300px;
-    flex: 0 1 50%;
-    padding-bottom: 100px;
+    width: 1000px;
+    max-width: 100%;
+    flex: 1 1 100%;
+    padding-bottom: 50px;
     height: auto;
     justify-content: space-between;
 }
@@ -57,6 +57,10 @@ body{
 
 .topleft {
     padding-right: 60px;
+    width: 600px;
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
 }
 
 .signup {
@@ -70,4 +74,94 @@ body{
 
 .topleft .signup {
     margin-top: 8px;
+}
+
+.info {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sect {
+    width:150px;
+    height: auto;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex:1 0 100%;
+    margin:10px;
+    padding-bottom: 50px;
+}
+
+.undertext {
+    color: #948a8a;
+    font-size: 12px;
+}
+.icon {
+    height:50px;
+    width: auto;
+}
+
+.quote {
+    padding: 20px 190px;
+    background-color: #e5e7eb;
+}
+
+.source {
+    display: flex;
+    justify-content: right;
+    font-weight: 700;
+}
+.actualquote {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.signup-pad {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #3882f6;
+    justify-content: space-between;
+    margin: 40px 120px;
+    border-radius: 8px;
+    padding: 35px 60px;
+}
+
+.signup-title, .signup-subtext {
+    color: #E5E7eb;
+}
+
+.signup-title {
+    font-weight: bold;
+}
+
+.signup-subtext {
+    font-size: 14px;
+}
+
+.signup-bottom {
+    background-color: #3882f6;
+    color: white;
+    width: 90px;
+    height: 25px;
+    border-radius: 8px;
+    border-color: #E5E7eb;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex: 1;
 }
